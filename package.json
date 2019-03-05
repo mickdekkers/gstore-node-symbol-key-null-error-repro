@@ -1,0 +1,15 @@
+{
+  "name": "gstore-node-symbol-key-null-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mick Dekkers <mickdekkersnl@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "GOOGLE_CLOUD_PROJECT_ID=your_project_id_here node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "3.0.1",
+    "gstore-node": "5.0.1"
+  }
+}
